@@ -30,4 +30,25 @@ public class LCAII {
         return left == null ? right : left;
 
     }
+
+    public class Result{
+        TreeNode node;
+        int count;
+        public Result(TreeNode node, int count){
+            this.node = node;
+            this.count = count;
+        }
+    }
+
+//    public TreeNode LCA(TreeNode root, TreeNode p, TreeNode q){
+//        if(root == null){
+//            return null;
+//        }
+//        Result res = LCARecursion
+//    }
+
+
+
+
+
 }
