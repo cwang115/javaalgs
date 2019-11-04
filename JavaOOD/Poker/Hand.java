@@ -8,12 +8,10 @@ public class Hand {
     protected List<Card> handcards;
     //constructor
 
-    public Hand(int id){
+    public Hand(int id) {
         this.id = id;
         this.handcards = new ArrayList<Card>();
     }
-
-
 
     //method
     public void addCard(Card card){
