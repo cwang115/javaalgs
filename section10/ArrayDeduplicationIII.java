@@ -37,4 +37,11 @@ public class ArrayDeduplicationIII {
         return Arrays.copyOf(array, flag ? end : end + 1);
 
     }
+
+    public static void main(String[] args){
+        ArrayDeduplicationIII solution = new ArrayDeduplicationIII();
+        int[] array = new int[]{1, 2, 2, 2, 3, 3, 4,5,6,6,6};
+        int[] anwser = solution.dedup(array);
+        System.out.println(Arrays.toString(anwser));
+    }
 }
