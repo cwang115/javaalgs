@@ -3,7 +3,7 @@ package suanfage2pointers;
 public class SubarraySumEqualsK {
     /**
      * optimize space complexity to O(1)
-     * 
+     *
      * @param nums
      * @param k
      * @return
