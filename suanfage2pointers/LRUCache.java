@@ -121,4 +121,10 @@ public class LRUCache<K, V>{
         return node;
     }
 
+    public static void main(String[] args){
+        Node node = new Node(1, 2);
+        System.out.println(node.key);
+
+    }
+
 }
