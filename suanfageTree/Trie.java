@@ -8,8 +8,7 @@ public class Trie {
         for(char c: word.toCharArray()){
             if(node.children[c - 'a'] == null){
                 node.children[c-'a'] = new TrieNode();
-                int index = c - 'a';
-                System.out.printf("c - 'a'" , index);
+
             }
             node = node.children[c - 'a'];
         }
@@ -45,6 +44,11 @@ public class Trie {
     public static void main(String[] args){
         Trie trie = new Trie();
         trie.insert("word");
+        String str = "cherryisshabi";
+        String substring = str.substring(5, 6);
+        System.out.println(substring);
 
     }
+
+
 }
