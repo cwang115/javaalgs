@@ -32,8 +32,9 @@ public class Deck {
      * @return the remaining deck after dealing one card
      */
     public Card deal(){
-            return this.cards.remove(cards.size() -1);
-        }
+
+        return this.cards.remove(cards.size() -1);
+    }
 
     /**
      *
