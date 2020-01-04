@@ -76,8 +76,8 @@ public class CourseSchedule {
 
         for(Integer adjNode : adjList.keySet()){
             dfs(stack, states, adjList, adjNode);
-
         }
+
         states[node] = State.VISITED;
         stack.add(node);
     }
